@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+/**************************** Nav Styles ******************************/
+
+li {
+	display: inline;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #6b6b6b;
+}
+
+.nav-container, .left-nav, .right-nav {
+	display: flex;
+	width: 100%;
+	padding: 10px;
+	align-items: center;
+}
+
+.nav-container .logo {
+	background: #000;
+	color: #fff;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left-nav p {
+	margin-left: 5px;
+	color: #6b6b6b;
+}
+
+.right-nav {
+	justify-content: flex-end;
+}
+
+.right-nav li {
+	margin-right: 20px;
+}
+
+
+
