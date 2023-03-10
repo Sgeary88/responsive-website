@@ -99,7 +99,31 @@ a {
 	object-fit: cover;
 }
 
+/**************************** Our Team Styles ******************************/
 
+.team-container {
+	margin: 50px auto;
+	text-align: center;
+	width: 90%;
+}
+
+
+.team-container h3 {
+	color: #6b6b6b;
+	margin-bottom: 30px;
+}
+
+.team-container h3:before, .team-container h3:after {
+	display: block;
+	content: "";
+	height: 2px;
+	background-image: linear-gradient(to left, #6b6b6b, #6b6b6b);
+}
+
+.team-container p {
+	color: #6b6b6b;
+	line-height: 23px;
+}
 
 
 
