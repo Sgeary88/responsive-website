@@ -67,9 +67,40 @@ a {
 }
 
 .about-container p {
-	color: #999;
+	color: #6b6b6b;
 	line-height: 23px;
 }
+
+/**************************** Interior Styles ******************************/
+
+.interior-container {
+	display: flex;
+	margin: 0 40px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.interior-container h4 {
+	color: #6b6b6b;
+	margin: 10px 0;
+}
+
+.interior-container p {
+	color: #999;
+	line-height: 20px;
+}
+
+.card1, .card2, .card3 {
+	flex-basis: 31%;
+}
+
+.card1 img, .card2 img, .card3 img {
+	width: 100%;
+	object-fit: cover;
+}
+
+
+
 
 
 
