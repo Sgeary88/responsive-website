@@ -22,7 +22,13 @@ a {
 	color: #6b6b6b;
 }
 
-.nav-container, .left-nav, .right-nav {
+.white {
+	color: #fff;
+}
+
+.nav-container,
+.left-nav,
+.right-nav {
 	display: flex;
 	width: 100%;
 	padding: 10px;
@@ -91,11 +97,15 @@ a {
 	line-height: 20px;
 }
 
-.card1, .card2, .card3 {
+.card1,
+.card2,
+.card3 {
 	flex-basis: 31%;
 }
 
-.card1 img, .card2 img, .card3 img {
+.card1 img,
+.card2 img,
+.card3 img {
 	width: 100%;
 	object-fit: cover;
 }
@@ -125,11 +135,11 @@ a {
 /**************************** Team Cards Styles ******************************/
 
 .team-cards-container {
-		display: flex;
-		flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-	}
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
 
 .team-cards-container img {
 	width: 200px;
@@ -143,11 +153,14 @@ a {
 
 .team-cards-container i {
 	font-size: 1.2em;
-  color: #999;
+	color: #999;
 	margin-top: 5px;
 }
 
-.team-card1, .team-card2, .team-card3, .team-card4 {
+.team-card1,
+.team-card2,
+.team-card3,
+.team-card4 {
 	margin: 0 25px;
 }
 
@@ -165,9 +178,9 @@ a {
 
 .social-container p {
 	display: flex;
-  flex-basis: 14%;
-  align-items: center;
-  justify-content: center;
+	flex-basis: 14%;
+	align-items: center;
+	justify-content: center;
 }
 
 .social-container i {
@@ -175,3 +188,35 @@ a {
 	margin-right: 10px;
 }
 
+.white, .fa-square-instagram {
+	color: #fff;
+}
+
+/**************************** Contact Styles ******************************/
+
+.contact-container {
+	background-color: #282828;
+	color: #777;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-around;
+	padding: 45px 0;
+}
+
+.contact-container h5 {
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.contact-container address {
+	line-height: 20px;
+}
+
+.contact-container p {
+	margin: 5px 0;
+}
+
+.email a {
+	text-decoration: underline;
+}
