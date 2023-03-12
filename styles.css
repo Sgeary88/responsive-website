@@ -151,5 +151,27 @@ a {
 	margin: 0 25px;
 }
 
+/**************************** Social Media Styles ******************************/
 
+.social-container {
+	display: flex;
+	margin: 80px auto 0;
+	justify-content: center;
+	background-color: #282828;
+	color: #777;
+	height: 127px;
+	align-items: center;
+}
+
+.social-container p {
+	display: flex;
+  flex-basis: 14%;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-container i {
+	font-size: 2em;
+	margin-right: 10px;
+}
 
