@@ -42,7 +42,7 @@ a {
 
 .left-nav p {
 	margin-left: 5px;
-	color: #6b6b6b;
+	color: #999;
 }
 
 .right-nav {
@@ -64,10 +64,11 @@ a {
 .about-container h2 {
 	color: #6b6b6b;
 	margin-bottom: 20px;
+	font-size: 3em;
 }
 
 .about-container p {
-	color: #6b6b6b;
+	color: #999;
 	line-height: 23px;
 }
 
@@ -110,21 +111,45 @@ a {
 
 .team-container h3 {
 	color: #6b6b6b;
-	margin-bottom: 30px;
-}
-
-.team-container h3:before, .team-container h3:after {
-	display: block;
-	content: "";
-	height: 2px;
-	background-image: linear-gradient(to left, #6b6b6b, #6b6b6b);
+	margin-bottom: 15px;
+	font-size: 2em;
 }
 
 .team-container p {
-	color: #6b6b6b;
+	color: #999;
 	line-height: 23px;
+	width: 70%;
+	margin: 0 auto;
 }
 
+/**************************** Team Cards Styles ******************************/
+
+.team-cards-container {
+		display: flex;
+		flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+	}
+
+.team-cards-container img {
+	width: 200px;
+	height: 200px;
+}
+
+.team-cards-container h4 {
+	margin: 5px 0;
+	color: #6b6b6b;
+}
+
+.team-cards-container i {
+	font-size: 1.2em;
+  color: #999;
+	margin-top: 5px;
+}
+
+.team-card1, .team-card2, .team-card3, .team-card4 {
+	margin: 0 25px;
+}
 
 
 
