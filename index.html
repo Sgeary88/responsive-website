@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Judson&family=Quando&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/d254f28229.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="styles.css">
 	<title>Responsive Website</title>
@@ -23,6 +26,7 @@
 					<li><a href="#">Home</a></li>
 					<li><a href="#">About Us</a></li>
 					<li><a href="#">Contact</a></li>
+					<li class="hidden"><i class="fa-solid fa-bars"></i></li>
 				</ul>
 			</nav>
 		</div>
@@ -41,17 +45,23 @@
 	<!--------------------------------------------------- INTERIOR CARDS ----------------------------------------->
 	<div class="interior-container">
 		<div class="card1">
+			<div class="card1-img">
 			<img src="/img/interior1.jpg" alt="interior">
+		</div>
+		<div class="card1-description">
 			<h4>Soluta esse molestie</h4>
 			<p>
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 				Unde facere aliquid fugit ullam officia placeat ipsum provident
 				maiores nobis vero! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-
 			</p>
+		</div>
 		</div>
 		<div class="card2">
+			<div class="card2-img">
 			<img src="/img/interior2.jpg" alt="interior">
+		</div>
+		<div class="card2-description">
 			<h4>Soluta esse molestie</h4>
 			<p>
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -59,14 +69,19 @@
 				maiores nobis vero! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 			</p>
 		</div>
+		</div>
 		<div class="card3">
+			<div class="card3-img">
 			<img src="/img/interior3.jpg" alt="interior">
+		</div>
+		<div class="card3-description">
 			<h4>Soluta esse molestie</h4>
 			<p>
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 				Unde facere aliquid fugit ullam officia placeat ipsum provident
 				maiores nobis vero! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 			</p>
+		</div>
 		</div>
 	</div>
 	<!--------------------------------------------------- Our Team Section ----------------------------------------->
@@ -79,78 +94,79 @@
 			consectetur adipisicing elit.
 		</p>
 	</div>
-		<!--------------------------------------------------- Team Cards Section ----------------------------------------->
-		<div class="team-cards-container">
-			<div><i class="fa-regular fa-less-than"></i></div>
-			<div class="team-card1">
-				<img src="/img/portrait1.jpg" alt="port1" class="team1">
-				<h4>Frank Star</h4>
-				<h4>Boss</h4>
-				<i class="fa-brands fa-twitter"></i>
-				<i class="fa-brands fa-google-plus"></i>
-				<i class="fa-brands fa-facebook"></i>
-			</div>
-			<div class="team-card2">
-				<img src="/img/portrait2.jpg" alt="port2" class="team2">
-				<h4>Melissa Style</h4>
-				<h4>Graphic Designer</h4>
-				<i class="fa-brands fa-twitter"></i>
-				<i class="fa-brands fa-google-plus"></i>
-				<i class="fa-brands fa-facebook"></i>
-			</div>
-			<div class="team-card3">
-				<img src="/img/portrait3.jpg" alt="port3" class="team3">
-				<h4>Matt Stoner</h4>
-				<h4>Web Developer</h4>
-				<i class="fa-brands fa-twitter"></i>
-				<i class="fa-brands fa-google-plus"></i>
-				<i class="fa-brands fa-facebook"></i>
-			</div>
-			<div class="team-card4">
-				<img src="/img/portrait4.jpg" alt="port4" class="team4">
-				<h4>Jane Naismith</h4>
-				<h4>Graphic Designer</h4>
-				<i class="fa-brands fa-twitter"></i>
-				<i class="fa-brands fa-google-plus"></i>
-				<i class="fa-brands fa-facebook"></i>
-			</div>
-			<div><i class="fa-regular fa-greater-than"></i></div>
+	<!--------------------------------------------------- Team Cards Section ----------------------------------------->
+	<div class="team-cards-container">
+		<div><i class="fa-regular fa-less-than"></i></div>
+		<div class="team-card1">
+			<img src="/img/portrait1.jpg" alt="port1" class="team1">
+			<h4>Frank Star</h4>
+			<h4>Boss</h4>
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-brands fa-google-plus"></i>
+			<i class="fa-brands fa-facebook"></i>
 		</div>
-				<!--------------------------------------------------- Social Media Section ----------------------------------------->
-				<div class="social-container">
-					<p><i class="fa-brands fa-facebook"></i>FACEBOOK</p>
-					<p><i class="fa-brands fa-square-twitter"></i>TWITTER</p>
-					<p class="white"><i class="fa-brands fa-square-instagram"></i>INSTAGRAM</p>
-					<p><i class="fa-brands fa-linkedin"></i>LINKEDIN</p>
-				</div>
-				<!--------------------------------------------------- Contact Section ----------------------------------------->
-				<div class="contact-container">
-					<div class="company-address">
-						<h5>Company Address</h5>
-						<address>
-							Responsive Street 7 <br>
-							London - United Kingdom <br>
-							Europe
-						</address>
-					</div>
-					<div class="email">
-						<h5>E-mail</h5>
-						<p>contact@yourdomain.com</p>
-						<a href="#" class="white">office@yourdomain.com</a>
-					</div>
-					<div class="phone-numbers">
-						<h5>Phone Numbers</h5>
-						<p>0800 4521 800 50</p>
-						<p>0800 4521 800 16</p>
-						<p>0800 4521 800 15</p>
-					</div>
-				</div>
-				<hr>
-				<footer>
-					<p>
-						Copyright 2045 - Your Domain Name <br>
-						Design and coding by Responsive Team
-					</p>
-				</footer>
+		<div class="team-card2">
+			<img src="/img/portrait2.jpg" alt="port2" class="team2">
+			<h4>Melissa Style</h4>
+			<h4>Graphic Designer</h4>
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-brands fa-google-plus"></i>
+			<i class="fa-brands fa-facebook"></i>
+		</div>
+		<div class="team-card3">
+			<img src="/img/portrait3.jpg" alt="port3" class="team3">
+			<h4>Matt Stoner</h4>
+			<h4>Web Developer</h4>
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-brands fa-google-plus"></i>
+			<i class="fa-brands fa-facebook"></i>
+		</div>
+		<div class="team-card4">
+			<img src="/img/portrait4.jpg" alt="port4" class="team4">
+			<h4>Jane Naismith</h4>
+			<h4>Graphic Designer</h4>
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-brands fa-google-plus"></i>
+			<i class="fa-brands fa-facebook"></i>
+		</div>
+		<div><i class="fa-regular fa-greater-than"></i></div>
+	</div>
+	<!--------------------------------------------------- Social Media Section ----------------------------------------->
+	<div class="social-container">
+		<p><i class="fa-brands fa-facebook"></i>FACEBOOK</p>
+		<p><i class="fa-brands fa-square-twitter"></i>TWITTER</p>
+		<p class="white"><i class="fa-brands fa-square-instagram"></i>INSTAGRAM</p>
+		<p><i class="fa-brands fa-linkedin"></i>LINKEDIN</p>
+	</div>
+	<!--------------------------------------------------- Contact Section ----------------------------------------->
+	<div class="contact-container">
+		<div class="company-address">
+			<h5>Company Address</h5>
+			<address>
+				Responsive Street 7 <br>
+				London - United Kingdom <br>
+				Europe
+			</address>
+		</div>
+		<div class="email">
+			<h5>E-mail</h5>
+			<p>contact@yourdomain.com</p>
+			<a href="#" class="white">office@yourdomain.com</a>
+		</div>
+		<div class="phone-numbers">
+			<h5>Phone Numbers</h5>
+			<p>0800 4521 800 50</p>
+			<p>0800 4521 800 16</p>
+			<p>0800 4521 800 15</p>
+		</div>
+	</div>
+	<footer>
+		<div class="hr-break"></div>
+		<p>
+			Copyright 2045 - Your Domain Name <br>
+			Design and coding by Responsive Team
+		</p>
+	</footer>
 </body>
+
 </html>
